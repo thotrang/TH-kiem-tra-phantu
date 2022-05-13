@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = prompt("nhập phần tử cần tìm");
+        let arr = [5, 3, 8, 9, 1, 0];
+        let b = 0;
+        document.write(arr);
+ 
+
+        for (let i = 0; i < arr.length; i++) {
+            if (a == arr[i]) {
+                alert("Value " + arr[i] + "found at " + i);
+                
+                b++;
+            }
+        }
+        if(b==0)
+            alert(a+" không có trong mảng");
+
+    </script>
+</body>
+
+</html>
